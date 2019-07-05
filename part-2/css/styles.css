@@ -17,13 +17,46 @@ body {
 
 img {
   max-width: 100%;
+  
 }
 
 figure {
   margin: 0;
 }
-
-.film {
-  width: 50%;
-  margin: 40px auto;
+h1 { 
+  margin-top: 0; 
 }
+.film {
+  width: 80%;
+  margin: 40px auto;
+  border: 1px solid gray; 
+  padding: 20px; 
+  display: flex;
+  justify-content: center; 
+
+  
+}
+.film-details { 
+  margin-left: 20px; 
+  margin-top: 0; 
+   
+}
+.action-like { 
+  float: right; 
+  color: red; 
+}
+.action-watch-later { 
+  float: right; 
+  color: red; 
+  position: absolute; 
+  margin-top: 10px;
+  margin-left: 10px;  
+}
+.action-watch-later-2  { 
+  float: right; 
+  color: red; 
+  position: absolute; 
+  margin-top: 10px;
+  margin-left: 10px; 
+}
+
