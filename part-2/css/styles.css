@@ -17,11 +17,10 @@ body {
 
 img {
   max-width: 100%;
-  
 }
-
 figure {
   margin: 0;
+  margin-top: -20px; 
 }
 h1 { 
   margin-top: 0; 
@@ -33,30 +32,63 @@ h1 {
   padding: 20px; 
   display: flex;
   justify-content: center; 
-
-  
 }
 .film-details { 
   margin-left: 20px; 
   margin-top: 0; 
-   
 }
 .action-like { 
   float: right; 
-  color: red; 
+  color: #ff0000; 
+  position: relative; 
+  top: 360px;  
 }
-.action-watch-later { 
-  float: right; 
-  color: red; 
-  position: absolute; 
-  margin-top: 10px;
-  margin-left: 10px;  
+/* icon wasn't responsive with page, temporary fix below */ 
+@media (max-width: 1150px) { 
+  .action-like { 
+    display: none; 
+  }
+  .film { 
+    padding-top: 20px; 
+  }
+  img { 
+    margin-top: 30px; 
+  }
 }
-.action-watch-later-2  { 
+.action-like-2 { 
   float: right; 
-  color: red; 
-  position: absolute; 
-  margin-top: 10px;
-  margin-left: 10px; 
+  color: #ff0000;
+  position: relative; 
+  top: 740px; 
+}
+/* icon wasn't responsive with page, temporary fix below */ 
+@media (max-width: 1150px) { 
+  .action-like-2 { 
+    display: none; 
+  }
+}
+.action-watch-later {  
+  color: #ff0000; 
+  position: relative; 
+  top: 50px; 
+  left: 350px; 
+}
+/* icon wasn't responsive with page, temporary fix below */ 
+@media (max-width: 1150px) { 
+  .action-watch-later { 
+    display: none; 
+  }
+}
+.action-watch-later-2 { 
+  color: #ff0000; 
+  position: relative; 
+  top: 50px; 
+  left: 580px; 
+}
+/* icon wasn't responsive with page, temporary fix below */ 
+@media (max-width: 1150px) { 
+  .action-watch-later-2 { 
+    display: none; 
+  }
 }
 
